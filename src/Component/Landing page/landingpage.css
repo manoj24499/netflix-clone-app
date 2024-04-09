@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-banner {
+  height: 100vh;
+  width: 100%;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.7) url(../../Assets/images/poster.jpg);
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+.bg-transparent {
+  color: white;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.email {
+  color: white;
+}
+.getstarted {
+  height: 50px;
+  width: 210px;
+  border: none;
+  background-color: rgb(229, 9, 20);
+}
+.email-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.extra-large {
+  font-size: 45px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.larger {
+  color: white;
+  height: 50px;
+  width: 370px;
+}
+.banner {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  height: 505px;
+  width: 100%;
+  border-top: 5px solid gray;
+}
+.content-contain {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.faqs-container {
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+.footer {
+  background-color: black;
+  height: 425px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid gray;
+}
